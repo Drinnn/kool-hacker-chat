@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "defaultUser": "node index.js --username root --room room1 --hostUri http://localhost:8080"
+    "defaultUser": "node index.js --username root --room room1 --hostUri http://localhost:9898"
   },
   "license": "MIT",
   "dependencies": {
