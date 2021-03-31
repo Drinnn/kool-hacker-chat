@@ -34,7 +34,7 @@ const socketServer = new SocketServer({ port })
 const server = await socketServer.initialize(eventEmitter)
 console.log(`socket server is running at ${server.address().port}`)
 
-eventEmitter.on(constants.event.NEW_USER_CONNECTED, socket => {
+// eventEmitter.on(constants.event.NEW_USER_CONNECTED, socket => {
 //     console.log('new connection!', socket.id)
 //     socket.on('data', data => {
 //         console.log('server received', data.toString())
